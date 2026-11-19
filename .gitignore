@@ -1,21 +1,19 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
 # dbt generated files
 target/
 dbt_packages/
 logs/
 
-# Python virtual environment
-venv/
-.venv/
-
-# Environment and credentials
-.env
-.env.*
+# Local credentials
 profiles.yml
+.env
 
-# Python generated files
-__pycache__/
-*.py[cod]
-
-# IDE files
+# IDE settings
 .idea/
 .vscode/
